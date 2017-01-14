@@ -23,7 +23,7 @@ public class MyInterceptor extends HandlerInterceptorAdapter {
 		request.removeAttribute("startTime");
 		long endTime = System.currentTimeMillis();
 		long handleTime = endTime - startTime;
-		System.out.println("本次请求处理时间为：" + handleTime);
+		System.out.println("本次请求" + request.getRequestURL() + "处理时间为：" + handleTime);
 		request.setAttribute("handleTime", handleTime);
 	}
 

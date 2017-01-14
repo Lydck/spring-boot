@@ -13,7 +13,7 @@
 	<logger name="com.lydck" level="debug" />
 
 	<!-- spring框架的logger -->
-	<logger name="org.springframework" level="info" />
+	<logger name="org.springframework" level="debug" />
 
 	<!-- 根logger -->
 	<root level="debug">
